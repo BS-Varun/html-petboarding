@@ -1,0 +1,201 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 13-Apr-2023, 12:15:50 am
+    Author     : bsvar
+*/
+
+#title {
+  background-color: #4abdac;
+  color: #fff;
+  background:url("dogandcat1.jpg"); 
+      
+ 
+
+}
+
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+h3 {
+  padding-top: 5%;
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 1.85rem;
+  line-height: 1.5;
+}
+
+h4 {
+  padding-top: 5%;
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 1.85rem;
+  line-height: 1.5;
+}
+
+p {
+  color: grey;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+    color: black;
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light", sans-serif;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+
+
+/* Features section */
+#features {
+  padding: 7% 15%;
+  background-color: #dfdce3;
+  position: relative;
+
+
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+
+}
+
+.icon {
+  color: #ef8172;
+  padding-bottom: 5%;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials */
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+.dog-img {
+  width: 25%;
+  border-radius: 100%;
+  /* making img round */
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 25%;
+}
+
+/* Pricing section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.dog-pic {
+  position: relative;
+}
+
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#cta {
+  background-color: #4abdac;
+  color:#fff;
+  text-align: center;
+  padding: 7% 15%;
+   
+}
+
+.cta-heading {
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.about-us {
+  font-family: "Montserrat-Black", sans-serif;
+  line-height: 1.5;
+  color: black;
+  padding-left: 6%;
+}
+
+/* Footer section */
+#footer {
+  background-color:  #fff;
+  text-align: center;
+  padding: 7% 15%;
+}

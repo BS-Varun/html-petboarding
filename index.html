@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+
+    <title>Pawsome</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+
+    <!-- js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+
+        
+    
+
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Ubuntu:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/a7e4e983e2.js" crossorigin="anonymous"></script>
+</head>
+
+
+
+<body >
+
+
+
+    <section id="title">
+        <div class="container-fluid">
+
+            <!-- Nav Bar -->
+            <nav class="navbar navbar-expand-lg navbar-dark ">
+                <a class="navbar-brand" href=""><i class="fa-solid fa-paw"></i> Pawsome</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseWidthExample" aria-controls="collapseWidthExample" aria-expanded="false">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapseWidthExample">
+
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#title">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#footer">
+                                      Contact
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pricing">
+                                Pricing
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cta">
+                                About us
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="signup.php">
+                                Register
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.php">
+                                Login
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+
+            <!-- Title -->
+
+            <div class=" row">
+
+                <div class="col-lg-6">
+                    <h1>A safe and happy stay for your furry friend.</h1>
+                    <h3>Every dog and cat has its day.But you decide if its just a day</h3>
+
+
+                    <button type="button" class="btn btn-dark btn-lg download-button"  onclick="window.location.href='signup.php';">Register</button>
+
+                    <button type="button" class="btn btn-outline-light btn-lg download-button"  onclick="window.location.href='login.php';"> Login</button>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Features -->
+
+    <section id="features" >
+
+        <div class="row">
+            <div class="feature-box col-lg-4">
+                <i class="icon fa-solid fa-circle-check fa-4x"></i>
+                <h3>The second home.</h3>
+                <p>Your pet's home away from home.</p>
+            </div>
+
+            <div class="feature-box col-lg-4">
+                <i class="icon fa-solid fa-bullseye fa-4x"></i>
+                <h3>The best groomers.</h3>
+                <p>Don't worry , We have both dog and cat people 😊 </p>
+            </div>
+            <div class="feature-box col-lg-4">
+                <i class="icon fa-solid fa-heart fa-4x"></i>
+                <h3>They like to come back.</h3>
+                <p>The services are so good that they like to come back.</p>
+            </div>
+        </div>
+
+
+
+    </section>
+
+
+    <!-- Testimonials -->
+
+    <section id="testimonials">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h2>I love pawsome so much.I spend the most amazing time with Nagraj,my groomer</h2>
+                    <img class="dog-img" src="images/dog-img.jpg" alt="dog-profile">
+                    <em>Pebbles, Bengaluru</em>
+                </div>
+                <div class="carousel-item">
+                    <h2 class="testimonial-text">My cat used to be so lonely, but with Pawsome's help, she has 
+                        found many friends.</h2>
+                    <img class="testimonial-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR28sK2CKOTxVqJHBAlfNCTJWTS0dPzqHAvaIz4UFa2Kw&usqp=CAU&ec=48600113" alt="lady-profile">
+                    <em>Aishwarya, Bengaluru</em>
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+    </section>
+
+
+    <!-- Press -->
+
+   
+
+
+    <!-- Pricing -->
+
+    <section id="pricing">
+
+        <h2>A Plan for Every Dog's Needs</h2>
+        <p>Simple and affordable price plans for your and your pet.</p>
+        <div class="row">
+            <div class="pricing-column col-lg-4 col-md-6">
+
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Grooming</h3>
+                    </div>
+                    <div class="card-body">
+                        <h2>Rs 999/ session</h2>
+                        <p>Bathing, Shampoo and conditioning</p>
+                        <p>Deshedding ,combing and brushing</p>
+                        <p>Tick and Flea treatment </p>
+                        <p>Hair styling and body trimming</p>
+                        <div class="d-grid gap-2">
+                            <button type="button" class=" btn btn-lg  btn-outline-dark"onclick="window.location.href='signup.php';">book session</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="pricing-column col-lg-4 col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Pool sessions</h3>
+                    </div>
+                    <div class="card-body">
+                        <h2>Rs 199 / hour</h2>
+                        <p>Clean and healthy pool</p>
+                        <p>Fun pool games</p>
+                        <p>Socialize with other pets</p>
+                        <p>Cool new swim tricks</p>
+                        <div class="d-grid gap-2">
+                            <button type="button" class=" btn btn-lg  btn-outline-dark" onclick="window.location.href='signup.php';">Book session</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="pricing-column col-lg-4 col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Pet's day out</h3>
+                    </div>
+                    <div class="card-body">
+                        <h2>Rs 1099 / session</h2>
+                        
+                        <p>Session includes half a day</p>
+                        <p>Pet Walking</p>
+                        <p>Food and other fun with other pets</p>
+                        <p>Peace of mind while you are away.Wagging tails everyday</p>
+                        <div class="d-grid gap-2">
+                            <button type="button" class=" btn btn-lg  btn-outline-dark" onclick="window.location.href='signup.php';">Book session</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+
+    <!-- Call to Action -->
+
+    <section id="cta">
+
+        <h4 class="cta-heading">Peace of mind while you are away.Wagging tails everyday</h4>
+        <p class="about-us">We at Pawsome are committed to redefining pet parenting and making it a more joyful and
+            convenient journey for
+            all pet lovers. With great obsession towards quality and ease we are creating a platform which will be a one
+            stop solution for all your pet parenting needs. We have started this journey by providing a bouquet of
+            doorstep services across Bengaluru, which include grooming, walking, training, vet consulting and nutrition
+            planning. We are a group of passionate pet lovers who ensure a safe and joyful experience is provided to
+            your furry friends and at the same time provide you with flexibility of scheduling appointments that fit in
+            your schedule perfectly.
+        </p>
+        <button type="button" class="btn btn-dark btn-lg " onclick="window.location.href='signup.php';">Register</button>
+        <button type="button" class="btn btn-light btn-lg "onclick="window.location.href='login.php';">Login</button>
+
+
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer id="footer">
+
+
+        <button type="button" class="btn btn-link"><i class="fa-brands fa-twitter"></i></button>
+
+        <button type="button" class="btn btn-link"><i class="fa-brands fa-facebook"></i></button>
+
+        <button type="button" class="btn btn-link"><i class="fa-brands fa-instagram"></i></button>
+
+        <button type="button" class="btn btn-link"><i class="fa-solid fa-envelope"></i></button>
+
+        <p>© Copyright 2023 Pawsome</p>
+
+
+    </footer>
+    <?php
+
+
+</body>
+
+</html>
